@@ -26,7 +26,3 @@ def equivalent_resistance(resistance_list: list, parallel=None) -> float:
             equivalent_resistance += resistance_list[i]
 
     return equivalent_resistance
-
-res_list = [5, 7]
-
-print(equivalent_resistance(res_list, False))
